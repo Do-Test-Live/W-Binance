@@ -177,9 +177,9 @@ Author url: https://themeforest.net/user/blackgallery
     function clientCarousel() {
         $('#client_carousel').slick({
             centerMode: false,
-            centerPadding: '0px',
-            slidesToShow: 7,
-            slidesToScroll: 2,
+            centerPadding: '10px',
+            slidesToShow: 2,
+            slidesToScroll: 1,
             arrows: false,
             dots: false,
             autoplay: true,
@@ -190,28 +190,28 @@ Author url: https://themeforest.net/user/blackgallery
                 {
                     breakpoint: 1199,
                     settings: {
-                        slidesToShow: 7,
+                        slidesToShow: 2,
                         slidesToScroll: 1
                     }
                 },
                 {
                     breakpoint: 991,
                     settings: {
-                        slidesToShow: 6,
+                        slidesToShow: 3,
                         slidesToScroll: 1
                     }
                 },
                 {
                     breakpoint: 767,
                     settings: {
-                        slidesToShow: 5,
+                        slidesToShow: 2,
                         slidesToScroll: 1
                     }
                 },
                 {
                     breakpoint: 580,
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 1,
                         slidesToScroll: 1
                     }
                 }
